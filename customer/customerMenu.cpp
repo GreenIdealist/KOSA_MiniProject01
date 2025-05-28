@@ -1,6 +1,7 @@
 #include <iostream>
 #include "customerMenu.h"
 
+
 void customerMenu(){
     std::cout << "원하는 서비스의 번호를 선택하세요" << std::endl;
     std::cout << "1. 제품 종류" << std::endl;
@@ -17,7 +18,7 @@ void customerMenu(){
     switch(SelectNum){
         
         case '1':
-        std::cout << "1번 선택" << std::endl;
+        제품종류.Test();
         break;
         
         case '2':
@@ -49,3 +50,4 @@ void customerMenu(){
         break;
     }
 }
+"files.encoding": "utf8"
